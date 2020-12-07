@@ -1,0 +1,26 @@
+
+int main()
+{
+    char pass[10];
+    int L;
+    lable:
+    printf(" ENTER PASSWORD=\n");
+    scanf("%d",&pass);
+
+    L=strlen(pass);
+    if(L>8)
+    {
+        printf("correct");
+
+    }
+else(L<8)
+{
+
+        printf("PASSWORD MUST BE LONG\n ");
+
+        goto lable;
+
+}
+
+    return 0;
+}
