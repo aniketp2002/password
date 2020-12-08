@@ -13,8 +13,7 @@ int main()
         printf("correct");
 
     }
-else(L<8)
-{
+else{
 
         printf("PASSWORD MUST BE LONG\n ");
 
